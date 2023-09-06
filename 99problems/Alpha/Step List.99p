@@ -1,0 +1,8 @@
+0. Get Informations About The Image
+1. Get Every Pixel Value
+2. If Image Value is in RGB mode Covert It to Hex mode
+3. Right Every Pixel Value In A File
+4. Compress The File Using "Burrows–Wheeler transform" Algorithm
+5. Decompress The File Using "Burrows–Wheeler transform" Algorithm
+6. Read Every Pixel Value From The File
+7. Recreate The Image

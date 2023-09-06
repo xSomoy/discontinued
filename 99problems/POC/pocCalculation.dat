@@ -1,0 +1,52 @@
+File Details:
+    Resolusion:     1920x1080
+    Color:          Grayscale
+
+Fuktion Details: [ RAW INFO ]
+
+    Uncompressed:       2073600 bytes
+    WinRAR:
+        RAR:            226 bytes
+        RAR4:           1135 bytes
+        ZIP:            2269 bytes
+    WinZip:
+        ZIP:            2660 bytes
+        ZIPX:           532 bytes
+    7zip:
+        7z:
+            BZp2:       172 bytes
+            LZMA:       485 bytes
+            LZMA2:      492 bytes
+            PPMd:       891 bytes
+        bzip2:
+            BZip2:      50 bytes
+        gzip:
+            Deflate:    2465 bytes
+        tar:
+            Store:      2075136 bytes
+        wim:
+            Store:      2074866 bytes
+        xz:
+            LZMA2:      424 bytes
+        zip:
+            BZip2:      198 bytes
+            Deflate:    2587 bytes
+            Deflate64:  7638 bytes
+            LZMA:       525 bytes 
+            PPMd:       920 bytes
+
+POC Calculation: [ Video ]
+    Grayscale: 50x(Second*FPS) = Bytes
+    RGB:       150x(Second*FPS) = Bytes
+
+Example:
+    Video 0:
+        Color:      Grayscale
+        Duration:   1 Min/60Sec
+        FPS:        25
+        Bytes =     50(60*25) = 75000 / 7.242KB / 0.0715MB
+    Video 1:
+        Color:      RGB
+        Duration:   1 Min/60Sec
+        FPS:        25
+        Bytes =     150(60*25) = 225000 / 219.727KB / 0.215MB
